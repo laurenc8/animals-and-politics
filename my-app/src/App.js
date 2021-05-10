@@ -2,12 +2,14 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import PageHome from './pages/PageHome';
 import PagePoster from './pages/PagePoster';
 import PageTiktoks from './pages/PageTiktoks';
+import NavBar from './components/NavBar';
 import './App.css';
 
 function App() {
 
   return (
-    <div className='App' style={{paddingTop: '65px'}}>
+    <div className='App'>
+      <NavBar />
       <Switch>
         <Route exact path="/" component={PageHome} />
         <Route exact path="/poster" component={PagePoster} />
