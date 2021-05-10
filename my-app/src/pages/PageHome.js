@@ -2,7 +2,7 @@ import React from 'react';
 
 function PageHome() {
   return (
-    <div>
+    <div style={{paddingTop: '60px', paddingBottom: '30px'}}>
       hi
     </div>
   );

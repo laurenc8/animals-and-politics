@@ -3,8 +3,8 @@ import poster from './poster.png';
 
 function PagePoster() {
   return (
-    <div>
-      <img src={poster} width="30%"/>
+    <div style={{paddingTop: '60px', paddingBottom: '30px'}}>
+      <img src={poster} width="50%"/>
     </div>
   );
 };

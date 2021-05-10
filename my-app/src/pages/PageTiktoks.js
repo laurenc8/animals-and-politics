@@ -2,7 +2,7 @@ import React from 'react';
 
 function PageTiktoks() {
   return (
-    <div>
+    <div style={{paddingTop: '60px', paddingBottom: '30px'}}>
       Tiktoks
     </div>
   );
