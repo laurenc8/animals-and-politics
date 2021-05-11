@@ -1,5 +1,5 @@
 import React from 'react';
-import poster from './poster.png';
+import poster from '../assets/poster.png';
 
 function PagePoster() {
   return (
