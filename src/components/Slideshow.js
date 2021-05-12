@@ -33,10 +33,14 @@ class Slideshow extends Component {
       indicators: (i) => <div className="indicator">{i + 1}</div>
     };
     const slideImages = [
-      "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-      "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-      "https://images.unsplash.com/photo-1444525873963-75d329ef9e1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
+      "https://sites.psu.edu/siowfa16/files/2016/09/baby-seal-29vsgyf.jpg",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-baby-animals-1558535060.jpg?crop=0.752xw:1.00xh;0.125xw,0&resize=640:*",
+      "https://i0.wp.com/cuethat.com/wp-content/uploads/2017/12/cute-animal-pictures-wow.jpg?resize=533%2C800",
+      "https://static.boredpanda.com/blog/wp-content/uuuploads/cute-baby-animals/cute-baby-animals-10.jpg",
+      "https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1619032302/shape/mentalfloss/62012-gettyimages-652385142.jpg?itok=gmp8svWe",
+      "https://assets.afcdn.com/album/D20170523/phalbm25176407_w320.jpg",
+      "https://pbs.twimg.com/profile_images/477022793142267904/UTHgo6G7_400x400.jpeg",
+      "https://hips.hearstapps.com/prima.cdnds.net/assets/16/01/1280x853/gallery-1451910359-hamster-playing-tennis.jpg?resize=480:*"
     ];
     return (
       <div className="App">
