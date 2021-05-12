@@ -1,9 +1,10 @@
 import React from 'react';
+import Slideshow from '../components/Slideshow';
 
 function PageHome() {
   return (
-    <div style={{paddingTop: '60px', paddingBottom: '30px'}}>
-      hi
+    <div style={{padding: '60px'}}>
+      <Slideshow />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import YoutubeEmbed from '../components/ConnorVid';
+import YoutubeEmbed from '../components/ConnorVid.js';
 
 function PageVideo() {
   return (
